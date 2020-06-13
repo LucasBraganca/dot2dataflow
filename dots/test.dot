@@ -1,0 +1,13 @@
+strict digraph "test1" {
+
+0 [label="in0",  op=in];
+1 [label="reg0", op=reg];
+2 [label="add0", op=add];
+3 [label="out0", op=out];
+
+0 -> 1 [port=0, weight=0];
+0 -> 2 [port=0, weight=0];
+1 -> 2 [port=1, weight=0];
+2 -> 3 [port=0, weight=0];
+
+}

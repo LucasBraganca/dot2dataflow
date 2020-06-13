@@ -1,0 +1,2 @@
+networkx==2.4
+veriloggen==1.8.2
